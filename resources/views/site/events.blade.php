@@ -33,7 +33,6 @@
                 <div class="row">
                     <div class="app_screenshots_slides owl-carousel">
                         @forelse($events as $event)
-							
 							<div class="single-shot">
                                 <div class="single-team-member">
                                     <div class="charlas-image">

@@ -8,6 +8,7 @@ use MercadoPago\SDK;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailAdminInscription;
 use App\Mail\EmailUserInscription;
+use App\Mail\EmailContactForm;
 
 
 class PageController extends Controller
@@ -95,8 +96,11 @@ class PageController extends Controller
 
 		    		Mail::to($session['email'])->send(new EmailUserInscription($event,$session,$payment));
 		    		
+					$nextEvents = App::call('App\Http\Controllers\EventsController@getNextEvents');
+					
 		    		return view('shoping.thanks',[
 		    			'event'=>$event,
+						'nextEvents'=>$nextEvents
 		    		]);
 
 		    		break;
@@ -111,7 +115,7 @@ class PageController extends Controller
 
 		    	case 'rejected':
 
-		    		return redirect()->route('events.inscription.front',$event->id)->with('error','Hubo un problema al procesar tu pago, por favor selecciona otro metodo de pago o reintenta mas tarde');
+		    		return redirect()->route('/cursos/payments',$event->id)->with('error','Hubo un problema al procesar tu pago, por favor selecciona otro metodo de pago o reintenta mas tarde');
 
 		    		break;
 
@@ -120,6 +124,12 @@ class PageController extends Controller
 		    		return redirect()->route('events.inscription.front',$event->id)->with('error','Hubo un problema al procesar tu pago, por favor selecciona otro metodo de pago o reintenta mas tarde');
 
 		    		break;
+				
+				default:
+					
+					return redirect()->route('events.inscription.front',$event->id)->with('error','Hubo un problema al procesar tu pago, por favor selecciona otro metodo de pago o reintenta mas tarde');
+					
+					break;
 		    }
     	}
 
@@ -151,5 +161,15 @@ class PageController extends Controller
 
     	dd($method_payments);
     }
+	
+	public function sendEmail(Request $request){
+		//Mail::to('ezequieldavidromano@hotmail.com')->send(new EmailContactForm($request->name, $request->message, $request->email, $request->phone, $request->country));
+
+		$msg = wordwrap($request->message,70);
+		$senderData = "País: ".$request->country."<br>Mail: ".$request->email."<br>Teléfono: ".$request->phone;
+
+		mail("ezequieldavidromano@hotmail.com","Contacto de ".$request->name." desde el formulario de la página web",$msg, $senderData);
+		return redirect()->route('/bienvenido');
+	}
 
 }

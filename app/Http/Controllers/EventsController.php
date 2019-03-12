@@ -21,6 +21,15 @@ class EventsController extends Controller
             'events'=>$events,
         ]);
     }
+	
+	public function getNextEvents(){
+		$actualDate = date(('Y-m-d'));
+		$country = Country::where('code', session('country'))->get()->first();
+		
+		$events = Event::where('country_id', $country->id)->where('date_start', '>=', $actualDate)->get();
+		
+		return $events;
+	}
 
     /**
      * Show the form for creating a new resource.
@@ -29,7 +38,10 @@ class EventsController extends Controller
      */
     public function create()
     {
-        return view('events.create');
+		$countries = Country::all();
+		return view('events.create',[
+            'countries'=>$countries,
+        ]);
     }
 
     /**
@@ -50,7 +62,7 @@ class EventsController extends Controller
             'about'=>['required','string'],
             'price'=>['required','numeric'],
             'img'=>['required','file'],
-            
+            'contry_id'=>['required', 'string'],
         ]);
 
         $country = Country::where('code',app('config')->get('app.country'))->first();
@@ -68,7 +80,7 @@ class EventsController extends Controller
             'temary'=>$request->input('temary'),
             'about_event'=>$request->input('about'),
             'price'=>$request->input('price'),
-            'country_id'=>$country->id,
+            'country_id'=>$request->input('contry_id'),
             'img'=>$request->file('img')->store('img_events','public'),
         ]);
 

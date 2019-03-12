@@ -138,12 +138,23 @@
 				
 
 					</div>
+					
+					<div class="form-group col-md-6">
+						<label for="">País</label>
+					
+						<select class="form-control" name="contry_id">
+							@forelse($countries as $country)
+								<option value="{{$country->id}}">{{$country->name}}</option>
+							@empty
+							@endforelse
+						</select>
+					</div>
 
 				</div>
 
 
 				<div class="form-group">
-				
+					
 					<label for="">Imagen</label>
 				
 					<input class="file-input" type="file" data-show-caption="false" data-show-upload="false" data-show-remove="true" name="img" required>

@@ -50,7 +50,7 @@
                 <div class="col-md-7">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="cursos/envio-general.php" method="post">
+                        <form action="cursos/sendEmail" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">
@@ -63,13 +63,14 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-6">
                                         <div class="form-group">
+											<input type="hidden" name="_token" value="{{csrf_token()}}"/>
                                             <input type="text" class="form-control" name="name" id="name" placeholder="Nombre y Apellido" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Teléfono" required>
+                                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Teléfono" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
@@ -81,7 +82,7 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <select class="form-control" id="pais">
+                                            <select class="form-control" id="pais" name="country">
                                                 <option disabled selected>¿De donde nos escribís?</option>
                                                 <option value="Afganistán" id="AF">Afganistán</option>
                                                 <option value="Albania" id="AL">Albania</option>

@@ -53,7 +53,7 @@
                                     <li class="nav-item"><a class="nav-link" href="{{ route('welcome') }}"><span class="active-nuevo">Bienvenido</span></a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">¿Quiénes Somos?</a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('service') }}">¿Qué hacemos?</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('blog') }}">Blog</a></li>
                                     
                                 </ul>
                                 <a class="navbar-brand d-none d-xl-block" href="{{ route('welcome') }}">
@@ -113,21 +113,40 @@
                             <a href="https://www.linkedin.com/company/meexperiencias/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                     </div>
-                    <div class="col-1-5 col-md-3 mb-4 mb-md-0">
-                        <div class="footer-heading">
-                            <h3>Contacto</h3>
-                        </div>
-                        <div class="footer-text2">
-                            <img src="{{ asset('img/core-img/mail.svg') }}" class="float-left mr-2 mb-1" alt="">
-                            <h4>EscribiME</h4>
-                            <p>contamemas@meexperiencias.com</p>
-                        </div>
-                        <div class="footer-text2">
-                            <img src="{{ asset('img/core-img/tel.svg') }}" class="float-left mr-2 mb-1" alt="">
-                            <h4>LlamaME</h4>
-                            <p>+54-9-351-2017150</p>
-                        </div>
-                    </div>
+					@if(session('country') == 'ar')
+						<div class="col-1-5 col-md-3 mb-4 mb-md-0">
+							<div class="footer-heading">
+								<h3>Contacto</h3>
+							</div>
+							<div class="footer-text2">
+								<img src="{{ asset('img/core-img/mail.svg') }}" class="float-left mr-2 mb-1" alt="">
+								<h4>EscribiME</h4>
+								<p>contamemas@meexperiencias.com</p>
+							</div>
+							<div class="footer-text2">
+								<img src="{{ asset('img/core-img/tel.svg') }}" class="float-left mr-2 mb-1" alt="">
+								<h4>LlamaME</h4>
+								<p>+54-9-351-2017150</p>
+							</div>
+						</div>
+					@endif
+					@if(session('country') == 'cr')
+						<div class="col-1-5 col-md-3 mb-4 mb-md-0">
+							<div class="footer-heading">
+								<h3>Contacto</h3>
+							</div>
+							<div class="footer-text2">
+								<img src="{{ asset('img/core-img/mail.svg') }}" class="float-left mr-2 mb-1" alt="">
+								<h4>EscribiME</h4>
+								<p>holacostarica@meexperiencias.com</p>
+							</div>
+							<div class="footer-text2">
+								<img src="{{ asset('img/core-img/tel.svg') }}" class="float-left mr-2 mb-1" alt="">
+								<h4>LlamaME</h4>
+								<p>+(507) 226-9030 | +(507) 6030-9389
+							</div>
+						</div>
+					@endif
                     <div class="col-1-5 col-md-2 mb-4 mb-md-0">
                         <div class="footer-heading">
                             <h3>Enlaces</h3>
@@ -136,8 +155,8 @@
                             <li class="mb-3"><a href="{{ route('welcome') }}">Bienvenido</a></li>
                             <li class="mb-3"><a href="{{ route('about') }}">¿Quienes somos?</a></li>
                             <li class="mb-3"><a href="{{ route('service') }}">¿Qué hacemos?</a></li>
-                            <li class="mb-3"><a href="#">Blog</a></li>
-                            <li class="mb-3"><a href="{{ asset('events') }}">Próximos cursos</a></li>
+                            <li class="mb-3"><a href="{{ route('blog') }}">Blog</a></li>
+                            <li class="mb-3"><a href="{{ asset('cursos') }}">Próximos cursos</a></li>
                             <li class="mb-3"><a href="{{ asset('contact') }}">Contacto</a></li>
                         </ul>
                     </div>

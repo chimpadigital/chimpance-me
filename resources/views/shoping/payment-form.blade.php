@@ -8,7 +8,12 @@
         <div class="container h-100 mt-8">
             <div class="row h-100">
                 <div class="col-12 col-md">
-                                            
+					@if (session('error'))
+                        <div class="alert alert-warning alert-styled-left alert-dismissible">
+                            <button type="button" class="close" data-dismiss="alert"><span>×</span></button>
+                            <span class="font-weight-semibold">{{ session('error') }}</span>
+                        </div>
+					@endif
                     <form action"{{ route('events.payments.set') }}" method="post" id="pay" name="pay" >
                     	@csrf
 					   	
@@ -16,7 +21,7 @@
 					   		
 					   		<div class="col-md-6 form-group">
 						   		<label for="email">Email</label>
-						        <input class="form-control" id="email" name="email" value="test_user_19653727@testuser.com" type="email" placeholder="your email"/>
+						        <input class="form-control" id="email" name="email" value="{{session('inscriptionMail')}}" type="email" placeholder="your email"/>
 						   	</div>
 
 						   	<div class="col-md-6 form-group">
@@ -61,7 +66,7 @@
 					   		
 							<div class="col-md-6 form-group">
 						   		<label for="docType">Document type:</label>
-						        <select class="form-control" id="docType" data-checkout="docType"></select>
+						        <select class="form-control" id="docType" data-checkout="docType"><option value="DU">DU</option></select>
 						   	</div>
 						   	<div class="col-md-6 form-group">
 						   		<label for="docNumber">Document number:</label>
@@ -73,6 +78,7 @@
 					            
 	
 					        <input id="paymentMethodId" type="hidden" name="paymentMethodId" />
+							<a href="/bienvenido" class="btn btn-danger">Back</a>
 					        <input class="btn btn-success" type="submit" value="Pay!" />
 					
 					</form>
@@ -106,6 +112,31 @@
         </div>
        
     </section>
+	
+<div class="modal fade right" id="invalidData" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true" data-backdrop="false">
+  <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="heading">Falta información
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="white-text">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-9">
+            <p>Falta información, por favor verificar los campos</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <a class="btn btn-warning" data-dismiss="modal">Cerrar</a>
+      </div>
+    </div>
+  </div>
+</div>
   
 
 
@@ -183,8 +214,9 @@
 
 	function sdkResponseHandler(status, response) {
 	    if (status != 200 && status != 201) {
-	        alert("verify filled data");
-	        alert(status);
+	        //alert("verify filled data");
+	        //alert(status);
+			$("#invalidData").modal()
 	    }else{
 	        
 	        var card = document.createElement('input');

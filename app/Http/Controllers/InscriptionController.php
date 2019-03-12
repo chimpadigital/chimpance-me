@@ -58,6 +58,8 @@ class InscriptionController extends Controller
         }
 
         session()->put('inscription',$request->all());
+		
+		session()->put('inscriptionMail', $request->input('email'));
 
         /*
         Inscription::create([

@@ -101,71 +101,137 @@
     <!-- ***** Special Area End ***** -->
     
     <!-- ***** Client Feedback Area Start ***** -->
-    <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <div class="slider slider-for">
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ Hermosa experiencia y excelentes las actividades propuestas y su dinámica en la Jornada de Logística de Arcor Argentina. Destaco el compromiso, la buena energía y la predisposición de todo el equipo de ME!!! ”</p>
-                            </div>
-                            
-                            <div class="client-name text-center">
-                                <h5>Adriana Juárez</h5>
-                                <p>Arcor</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ Cuando te brindan calidad y calidez, capacitan, enseñan y divierten, ¡se aprende! Excelente grupo de trabajo!!! Un placer trabajar con ustedes ME!!! ”</p>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Yamila Abad</h5>
-                                <p>Equipo de FARMACIAS LÍDER</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ Hicimos una capacitación con el equipo, son muy originales, fuera de lo común. Una experiencia muy linda, amena.. una nueva manera de aprender!!! ”</p>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Belén Matias</h5>
-                                <p>Grupo Edisur</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <!-- Client Thumbnail Area -->
-                <div class="col-12 col-md-6 col-lg-5">
-                    <div class="slider slider-nav">
-                        <div class="client-thumbnail">
-                            <img src="img/logos/arcor.png" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/logos/lider.png" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/logos/edisur.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	@if(session('country') == 'ar')
+		<section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="slider slider-for">
+							<!-- Client Feedback Text  -->
+							<div class="client-feedback-text text-center">
+								<div class="client">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</div>
+								<div class="client-description text-center">
+									<p>“ Hermosa experiencia y excelentes las actividades propuestas y su dinámica en la Jornada de Logística de Arcor Argentina. Destaco el compromiso, la buena energía y la predisposición de todo el equipo de ME!!! ”</p>
+								</div>
+								
+								<div class="client-name text-center">
+									<h5>Adriana Juárez</h5>
+									<p>Arcor</p>
+								</div>
+							</div>
+							<!-- Client Feedback Text  -->
+							<div class="client-feedback-text text-center">
+								<div class="client">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</div>
+								<div class="client-description text-center">
+									<p>“ Cuando te brindan calidad y calidez, capacitan, enseñan y divierten, ¡se aprende! Excelente grupo de trabajo!!! Un placer trabajar con ustedes ME!!! ”</p>
+								</div>
+								<div class="client-name text-center">
+									<h5>Yamila Abad</h5>
+									<p>Equipo de FARMACIAS LÍDER</p>
+								</div>
+							</div>
+							<!-- Client Feedback Text  -->
+							<div class="client-feedback-text text-center">
+								<div class="client">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</div>
+								<div class="client-description text-center">
+									<p>“ Hicimos una capacitación con el equipo, son muy originales, fuera de lo común. Una experiencia muy linda, amena.. una nueva manera de aprender!!! ”</p>
+								</div>
+								<div class="client-name text-center">
+									<h5>Belén Matias</h5>
+									<p>Grupo Edisur</p>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<!-- Client Thumbnail Area -->
+					<div class="col-12 col-md-6 col-lg-5">
+						<div class="slider slider-nav">
+							<div class="client-thumbnail">
+								<img src="img/logos/arcor.png" alt="">
+							</div>
+							<div class="client-thumbnail">
+								<img src="img/logos/lider.png" alt="">
+							</div>
+							<div class="client-thumbnail">
+								<img src="img/logos/edisur.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	@endif
+	@if(session('country') == 'cr')
+		<section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="slider slider-for">
+							<!-- Client Feedback Text  -->
+							<div class="client-feedback-text text-center">
+								<div class="client">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</div>
+								<div class="client-description text-center">
+									<p>“ Aprendí muchísimo y lo disfruté... fue maravilloso conocer personas maravillosas como ustedes, con un gran carisma y que disfrutan al máximo lo que hacen ”</p>
+								</div>
+								
+								<div class="client-name text-center">
+									<h5>Gau Zuniga</h5>
+								</div>
+							</div>
+							<!-- Client Feedback Text  -->
+							<div class="client-feedback-text text-center">
+								<div class="client">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</div>
+								<div class="client-description text-center">
+									<p>“ Excelente entrenamiento, muy provechoso! Y tanto Meli como Cande, muy buenas transmitiendo el amplio conocimiento que tienen ”</p>
+								</div>
+								<div class="client-name text-center">
+									<h5>Carolina Golcher</h5>
+								</div>
+							</div>
+							<!-- Client Feedback Text  -->
+							<div class="client-feedback-text text-center">
+								<div class="client">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</div>
+								<div class="client-description text-center">
+									<p>“ Me encanto lo disfrute mil ”</p>
+								</div>
+								<div class="client-name text-center">
+									<h5>Peggy Chaves Mora</h5>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<!-- Client Thumbnail Area -->
+					<div class="col-12 col-md-6 col-lg-5">
+						<div class="slider slider-nav">
+							<div class="client-thumbnail">
+								<img src="img/logos/user.png" alt="">
+							</div>
+							<div class="client-thumbnail">
+								<img src="img/logos/user.png" alt="">
+							</div>
+							<div class="client-thumbnail">
+								<img src="img/logos/user.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	@endif
     <!-- ***** Client Feedback Area End ***** -->
 
     <!-- Special Description Area -->
@@ -243,81 +309,63 @@
             </div>
             <div class="row">
                 <div class="app_screenshots_slides owl-carousel">
-                    <div class="single-shot">
-                        <div class="single-team-member">
-                            <div class="charlas-image">
-                                <img src="img/charlas/11-4.jpg" alt="">
-                                <div class="charlas-hover-effects">
-                                    <div class="charlas-social-icon">
-                                        <a href="cursos/11-4.php">
-                                            <h5>Comunicá efectivamente</h5>
-                                            <ul class="d-inline-flex charla-info">
-                                                <li>
-                                                    <i class="fa fa-calendar"></i> 11 / 4
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-clock-o"></i> 18:00hs
-                                                </li>
-                                            </ul>
-                                            <a href="cursos/11-4.php" class="charlas-mas">
-                                                <i class="fa fa-plus"></i>
-                                            </a>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-shot">
-                        <div class="single-team-member">
-                            <div class="charlas-image">
-                                <img src="img/charlas/9-5.jpg" alt="">
-                                <div class="charlas-hover-effects">
-                                    <div class="charlas-social-icon">
-                                        <a href="cursos/9-5.php">
-                                            <h5>Nuevas economías</h5>
-                                            <ul class="d-inline-flex charla-info">
-                                                <li>
-                                                    <i class="fa fa-calendar"></i> 09 / 5
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-clock-o"></i> 18:00hs
-                                                </li>
-                                            </ul>
-                                            <a href="cursos/9-5.php" class="charlas-mas">
-                                                <i class="fa fa-plus"></i>
-                                            </a>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-shot">
-                        <div class="single-team-member">
-                            <div class="charlas-image">
-                                <img src="img/charlas/13-6.jpg" alt="">
-                                <div class="charlas-hover-effects">
-                                    <div class="charlas-social-icon">
-                                        <a href="cursos/13-6.php">
-                                            <h5>Conocé tus fortalezas</h5>
-                                            <ul class="d-inline-flex charla-info">
-                                                <li>
-                                                    <i class="fa fa-calendar"></i> 13 / 6
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-clock-o"></i> 18:00hs
-                                                </li>
-                                            </ul>
-                                            <a href="cursos/13-6.php" class="charlas-mas">
-                                                <i class="fa fa-plus"></i>
-                                            </a>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+					@if(count($events) >= 3)
+						@for($i = 0; $i < 3; $i++)
+							<div class="single-shot">
+								<div class="single-team-member">
+									<div class="charlas-image">
+										<img src="{{ Storage::disk('public')->url($events[$i]->img) }}" alt="">
+										<div class="charlas-hover-effects">
+											<div class="charlas-social-icon">
+												<a href="{{ route('events.show.front',$events[$i]->id) }}">
+													<h5>{{$events[$i]->name}}</h5>
+													<ul class="d-inline-flex charla-info">
+														<li>
+															<i class="fa fa-calendar"></i> {{$events[$i]->date_start}}
+														</li>
+														<li>
+															<i class="fa fa-clock-o"></i> {{$events[$i]->hour}}
+														</li>
+													</ul>
+													<a href="{{ route('events.show.front',$events[$i]->id) }}" class="charlas-mas">
+														<i class="fa fa-plus"></i>
+													</a>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>					
+						@endfor
+					@else
+						@for($i = 0; $i < count($events); $i++)
+							<div class="single-shot">
+								<div class="single-team-member">
+									<div class="charlas-image">
+										<img src="{{ Storage::disk('public')->url($events[$i]->img) }}" alt="">
+										<div class="charlas-hover-effects">
+											<div class="charlas-social-icon">
+												<a href="{{ route('events.show.front',$events[$i]->id) }}">
+													<h5>{{$events[$i]->name}}</h5>
+													<ul class="d-inline-flex charla-info">
+														<li>
+															<i class="fa fa-calendar"></i> {{$events[$i]->date_start}}
+														</li>
+														<li>
+															<i class="fa fa-clock-o"></i> {{$events[$i]->hour}}
+														</li>
+													</ul>
+													<a href="{{ route('events.show.front',$events[$i]->id) }}" class="charlas-mas">
+														<i class="fa fa-plus"></i>
+													</a>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>					
+						@endfor
+					@endif
                 </div>
             </div>
         </div>
@@ -355,7 +403,7 @@
                 <div class="col-md-7">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="cursos/envio-general.php" method="post">
+                        <form action="cursos/sendEmail" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">
@@ -368,13 +416,14 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-6">
                                         <div class="form-group">
+											<input type="hidden" name="_token" value="{{csrf_token()}}"/>
                                             <input type="text" class="form-control" name="name" id="name" placeholder="Nombre y Apellido" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Teléfono" required>
+                                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Teléfono" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
@@ -386,7 +435,7 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <select class="form-control" id="pais" name="pais">
+                                            <select class="form-control" id="pais" name="country">
                                                 <option disabled selected>¿De donde nos escribís?</option>
                                                 <option value="Afganistán" id="AF">Afganistán</option>
                                                 <option value="Albania" id="AL">Albania</option>

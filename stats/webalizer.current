@@ -1,0 +1,614 @@
+# Webalizer V2.23-08 Incremental Data - 03/11/2019 22:04:27
+2019 3 11 22 4 27
+3241 2750 1 245 1 1 133891510 267 4 0 0 0
+1 53 770 6 11
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+102 101 4624819 1 4 1 0 0
+0 0 0 0 0 0 0 0
+2557 2172 110870147 1 196 2 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+582 477 18396544 1 67 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+119 101 4652751 21 0 0
+13 8 831464 13 0 0
+675 614 29579118 63 0 0
+770 657 35012950 38 0 0
+507 385 19279738 30 0 0
+264 237 8852990 26 0 0
+185 151 4608838 20 0 0
+501 425 22541331 41 0 0
+207 172 8532330 15 0 0
+0 0 0 0 0 0
+0
+0
+0
+2750
+0
+0
+0
+0
+0
+0
+0
+1
+43
+0
+0
+0
+0
+0
+0
+0
+8
+416
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+23
+0
+0
+0
+0
+0
+# -urls- 
+/global_assets/js/plugins/ui/ripple.min.js
+0 32 95425 218464 0 0 0 0
+/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js
+0 25 0 327575 0 0 0 0
+/img/logos/lider.png
+1 13 0 155077 0 0 0 0
+/img/servicios/cursos/felicidad-org.jpg
+1 5 0 128205 0 0 0 0
+/ar/css/owl.carousel.min.css
+0 1 0 4954 0 0 0 0
+/css/font-awesome.min.css
+0 30 0 991563 0 0 0 0
+/ar/js/footer-reveal.min.js
+0 1 0 2624 0 0 0 0
+/assets/css/bootstrap_limitless.min.css
+0 31 0 2549626 0 0 0 0
+/img/ilustraciones/planeta.svg
+0 4 0 695132 0 0 0 0
+/blog
+0 1 7453017778185580391 11415 0 0 0 0
+/ar/js/plugins.js
+0 1 0 93987 0 0 0 0
+/contacto
+0 5 0 127211 0 0 0 0
+/ar/css/font-awesome.min.css
+0 1 0 33049 0 0 0 0
+/global_assets/js/plugins/visualization/d3/d3_tooltip.js
+0 29 0 301252 0 0 0 0
+/assets/css/bootstrap.min.css
+0 31 0 4245977 0 0 0 0
+/img/bg-img/circ-morado.svg
+0 4 0 8908 0 0 0 0
+/img/core-img/charlas.svg
+0 15 0 82530 0 0 0 0
+/global_assets/css/icons/icomoon/fonts/icomoon.ttf
+0 1 0 220589 0 0 0 0
+/img/bg-img/planta1.svg
+0 5 0 14300 0 0 0 0
+/img/core-img/mail.svg
+0 19 0 73473 0 0 0 0
+/img/bg-img/somos-top.svg
+0 4 0 9588 0 0 0 0
+/global_assets/js/main/jquery.min.js
+0 8 0 712632 0 0 0 0
+/img/servicios/cursos/liderazgo.jpg
+1 5 0 66270 0 0 0 0
+/img/logos/12.png
+1 13 0 203450 0 0 0 0
+/img/logos/millennial.jpg
+1 4 0 77020 0 0 0 0
+/style.css
+0 2 0 73494 0 0 0 0
+/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js
+0 25 0 454825 0 0 0 0
+/eventos
+0 6 0 53768 0 0 0 0
+/img/logos/neti.jpg
+1 4 0 59260 0 0 0 0
+/global_assets/js/plugins/tables/datatables/datatables.min.js
+0 6 0 509286 0 0 0 0
+/img/charlas/13-6.jpg
+1 11 0 7418697 0 0 0 0
+/blog/notes
+0 1 0 11789 0 0 0 0
+/img/logos/golf.png
+1 13 0 150384 0 0 0 0
+/img/core-img/tel.svg
+0 19 0 89984 0 0 0 0
+/js/plugins.js
+0 26 0 2443718 0 0 0 0
+/img/servicios/workshops/desafio.jpg
+1 5 0 155280 0 0 0 0
+/ar/img/core-img/favicon.png
+1 1 0 2570 0 0 0 0
+/global_assets/css/icons/icomoon/fonts/icomoon.woff
+0 28 0 6179096 0 0 0 0
+/ar/style.css
+0 1 0 36674 0 0 0 0
+/img/logos/young.jpg
+1 4 0 97548 0 0 0 0
+/ar/img/bg-img/bg-ondas2.svg
+0 1 0 3561 0 0 0 0
+/img/logos/sb.jpg
+1 4 0 48308 0 0 0 0
+/ar/img/logos/golf.png
+1 1 0 11568 0 0 0 0
+/img/logos/iveco.png
+1 13 0 89375 0 0 0 0
+/img/core-img/sonrisa.png
+1 16 0 66352 0 0 0 0
+/global_assets/js/demo_pages/editor_summernote.js
+0 24 0 95832 0 0 0 0
+/img/servicios/workshops/happy.jpg
+1 5 0 151485 0 0 0 0
+/img/servicios/workshops/felicidad.jpg
+1 5 0 149980 0 0 0 0
+/ar/css/slick.css
+0 1 0 3739 0 0 0 0
+/assets/css/intlTelInput.min.css
+0 27 0 614757 0 0 0 0
+/img/logos/sancor.png
+1 13 0 271674 0 0 0 0
+/js/plugins.js.pagespeed.jm.Ncvh6xCFqI.js
+0 1 0 90920 0 0 0 0
+/ar/img/core-img/cursos.svg
+0 1 0 6543 0 0 0 0
+/ar/img/charlas/9-5.jpg
+1 1 0 643621 0 0 0 0
+/img/core-img/estrellas.svg
+0 13 0 54288 0 0 0 0
+/img/logos/03.png
+1 13 0 271063 0 0 0 0
+/fonts/fontawesome-webfont.woff
+0 19 0 1903196 0 0 0 0
+/ar/img/bg-img/bg-testimonios.svg
+0 1 0 2180 0 0 0 0
+/ar/img/logos/flider.png
+1 1 0 10175 0 0 0 0
+/ar/js/popper.min.js
+0 1 0 21067 0 0 0 0
+/global_assets/js/plugins/ui/slinky.min.js.pagespeed.jm.uReZd2jnaK.js
+0 1 0 6351 0 0 0 0
+/js/bootstrap.min.js
+0 27 0 1421795 0 0 0 0
+/ar/img/core-img/mail.svg
+0 1 0 3867 0 0 0 0
+/ar/img/core-img/charlas.svg
+0 1 0 5502 0 0 0 0
+/img/servicios/asesoria/cultura.jpg
+1 5 0 166430 0 0 0 0
+/ar/img/core-img/arg.png
+1 1 0 8869 0 0 0 0
+/ar/img/core-img/logo-menu.svg
+0 1 0 17158 0 0 0 0
+/img/servicios/asesoria/estrategica.jpg
+1 5 0 126015 0 0 0 0
+/js/slick.min.js+footer-reveal.min.js+active.js+otro.js.pagespeed.jc.Ha8-SlRHNb.js
+0 1 0 51409 0 0 0 0
+/css/slick.css
+0 30 0 112248 0 0 0 0
+/eventos/create
+0 49 0 521442 0 0 0 0
+/assets/js/app.js
+0 31 0 666097 0 0 0 0
+/ar/img/logos/apex.png
+1 1 0 11994 0 0 0 0
+/img/logos/21.png
+1 13 0 136058 0 0 0 0
+/img/ilustraciones/conferencia.svg
+0 9 0 538434 0 0 0 0
+/ar/img/logos/paclin.png
+1 1 0 12603 0 0 0 0
+/bienvenido
+0 22 0 835488 0 0 0 0
+/img/logos/tecnoair.png
+1 13 0 75153 0 0 0 0
+/ar/img/ilustraciones/bienvenido.svg
+0 1 0 83925 0 0 0 0
+/global_assets/js/plugins/ui/moment/moment.min.js
+0 28 0 1504916 0 0 0 0
+/img/core-img/cursos.svg
+0 15 0 98145 0 0 0 0
+/img/core-img/logo-menu.svg
+0 19 0 326002 0 0 0 0
+/img/logos/06.png
+1 13 0 80626 0 0 0 0
+/img/core-img/circulo-before.svg
+0 19 0 47310 0 0 0 0
+/img/servicios/asesoria/comunicacion.jpg
+1 5 0 140570 0 0 0 0
+/img/bg-img/bg-testimonios.svg
+0 13 0 28228 0 0 0 0
+/img/servicios/team/yoga.jpg
+1 5 0 201130 0 0 0 0
+/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js
+0 28 0 1952692 0 0 0 0
+/img/servicios/workshops/pasion.jpg
+1 5 0 56795 0 0 0 0
+/img/core-img/arg.png
+1 34 0 301546 0 0 0 0
+/ar/img/logos/gedisur.png
+1 1 0 11446 0 0 0 0
+/ar/img/core-img/logo-footer.svg
+0 1 0 33239 0 0 0 0
+/css/animate.css
+0 31 0 1832910 0 0 0 0
+/assets/css/intlTelInput.min.css.pagespeed.ce.rUagQXM8M_.css
+0 1 0 22856 0 0 0 0
+/fonts/fontawesome-webfont.woff2
+0 51 0 4040658 0 0 0 0
+/img/logos/gedisur.png
+1 13 0 148798 0 0 0 0
+/img/core-img/favicon.png
+1 25 0 143209 0 0 0 0
+/img/bg-img/somos-bottom.svg
+0 4 0 9728 0 0 0 0
+/img/ilustraciones/cursos.svg
+0 5 0 248610 0 0 0 0
+/ar/js/bootstrap.min.js
+0 1 0 52657 0 0 0 0
+/img/ilustraciones/team.svg
+0 5 0 411895 0 0 0 0
+/ar/img/core-img/team.svg
+0 1 0 5524 0 0 0 0
+/img/logos/protectia.png
+1 13 0 177736 0 0 0 0
+/img/core-img/me-eb.svg
+0 13 0 433849 0 0 0 0
+/img/core-img/team.svg
+0 15 0 82860 0 0 0 0
+/ar/js/jquery-2.2.4.min.js
+0 1 0 87730 0 0 0 0
+/img/logos/04.jpg
+1 13 0 340795 0 0 0 0
+/img/core-img/empresab.svg
+0 4 0 73188 0 0 0 0
+/ar/img/logos/lekons.png
+1 1 0 8492 0 0 0 0
+/img/team-img/ale.jpg
+1 4 0 1348552 0 0 0 0
+/global_assets/js/plugins/ui/slinky.min.js
+0 29 0 182829 0 0 0 0
+/nosotras
+0 5 0 190060 0 0 0 0
+/img/logos/24.png
+1 13 0 106717 0 0 0 0
+/ar/fonts/fontawesome-webfont.woff
+0 1 0 100180 0 0 0 0
+/ar/img/logos/edisur.png
+1 1 0 8154 0 0 0 0
+/img/logos/flider.png
+1 13 0 132275 0 0 0 0
+/img/core-img/cr-lg.png
+1 4 0 15224 0 0 0 0
+/img/team-img/anto.png
+1 4 0 194712 0 0 0 0
+/js/slick.min.js
+0 26 0 1168158 0 0 0 0
+/img/logos/paclin.png
+1 13 0 163839 0 0 0 0
+/css/themify-icons.css
+0 30 0 551254 0 0 0 0
+/img/servicios/team/innovacion.jpg
+1 5 0 146140 0 0 0 0
+/img/servicios/cursos/comunicacion.jpg
+1 5 0 152690 0 0 0 0
+/ar/bienvenido.php
+0 1 0 31666 0 1 0 0
+/img/servicios/cursos/feedback.jpg
+1 5 0 180740 0 0 0 0
+/img/ilustraciones/charlas.svg
+0 5 0 305845 0 0 0 0
+/ar/js/slick.min.js
+0 1 0 44927 0 0 0 0
+/css/style.css
+0 33 0 1268184 0 0 0 0
+/js/footer-reveal.min.js
+0 21 0 55160 0 0 0 0
+/img/bg-img/planta2.svg
+0 5 0 35325 0 0 0 0
+/img/logos/arcor.png
+1 13 0 163748 0 0 0 0
+/ar/css/magnific-popup.css
+0 1 0 7618 0 0 0 0
+/ar/img/core-img/cr.png
+1 1 0 3123 0 0 0 0
+/ar/img/core-img/tel.svg
+0 1 0 4736 0 0 0 0
+/img/core-img/logo-footer.svg
+0 19 0 631541 0 0 0 0
+/js/popper.min.js
+0 36 0 758468 0 0 0 0
+/assets/css/colors.min.css
+0 31 0 1227197 0 0 0 0
+/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js
+0 25 0 2371175 0 0 0 0
+/js/active.js
+0 26 0 155088 0 0 0 0
+/ar/img/logos/tecnoair.png
+1 1 0 5781 0 0 0 0
+/img/servicios/workshops/empresab.jpg
+1 5 0 61525 0 0 0 0
+/login
+0 14 0 82778 0 0 0 0
+/img/logos/edisur.png
+1 13 0 106002 0 0 0 0
+/assets/css/layout.min.css
+0 31 0 984746 0 0 0 0
+/img/logos/20.png
+1 13 0 128245 0 0 0 0
+/img/charlas/11-4.jpg
+1 11 0 7021102 0 0 0 0
+/img/team-img/cande.png
+1 4 0 246612 0 0 0 0
+/img/servicios/team/campeones.jpg
+1 5 0 245115 0 0 0 0
+/img/logos/eabasto.jpg
+1 4 0 64732 0 0 0 0
+/assets/css/components.min.css
+0 31 0 9762830 0 0 0 0
+/global_assets/css/icons/icomoon/styles.css
+0 32 0 1588416 0 0 0 0
+/css/bootstrap.min.css
+0 36 0 4665173 0 0 0 0
+/img/bg-img/bg-ondas.svg
+0 17 0 55400 0 0 0 0
+/global_assets/js/main/bootstrap.bundle.min.js
+0 31 0 2265759 0 0 0 0
+/img/logos/13.png
+1 13 0 129298 0 0 0 0
+/_debugbar/assets/javascript
+0 2 0 746358 0 0 0 0
+/ar/img/core-img/me-eb.svg
+0 1 0 33373 0 0 0 0
+/img/logos/lekons.png
+1 13 0 110396 0 0 0 0
+/contact
+0 1 3544649776717327984 25438 0 0 0 0
+/img/logos/nodhos.png
+1 13 0 119691 0 0 0 0
+/img/logos/advanced.jpg
+1 4 0 44000 0 0 0 0
+/img/servicios/workshops/pequenos.jpg
+1 5 0 150980 0 0 0 0
+/img/logos/financial.jpg
+1 4 0 57236 0 0 0 0
+/ar/js/active.js
+0 1 0 5960 0 0 0 0
+/img/logos/22.png
+1 13 0 193817 0 0 0 0
+/img/bg-img/servicios.svg
+0 5 0 13482 0 0 0 0
+/img/bg-img/circ-celeste.svg
+0 4 0 9068 0 0 0 0
+/img/team-img/vale.png
+1 4 0 144116 0 0 0 0
+/img/logos/14.png
+1 13 0 207246 0 0 0 0
+/img/servicios/team/equipo.jpg
+1 5 0 174840 0 0 0 0
+/ar/css/animate.css
+0 1 0 59202 0 0 0 0
+/img/servicios/team/swing.jpg
+1 5 0 153490 0 0 0 0
+/js/otro.js
+0 21 0 109382 0 0 0 0
+/ar/img/logos/proa.png
+1 1 0 5720 0 0 0 0
+/home
+0 7 0 59008 0 0 0 0
+/css/owl.carousel.min.css
+0 31 0 153676 0 0 0 0
+/ar/img/core-img/asesoria.svg
+0 1 0 10213 0 0 0 0
+/css/ionicons.min.css
+0 30 0 1601539 0 0 0 0
+/ar/img/logos/nodhos.png
+1 1 0 9207 0 0 0 0
+/ar/img/charlas/11-4.jpg
+1 1 0 638282 0 0 0 0
+/img/logos/05.jpg
+1 13 0 283608 0 0 0 0
+/ar/img/logos/tecnocampo.png
+1 1 0 5951 0 0 0 0
+/img/ilustraciones/asesoria.svg
+0 5 0 231535 0 0 0 0
+/img/blog/blog1.jpg
+1 1 0 24962 0 0 0 0
+/img/logos/presidential.jpg
+1 4 0 72692 0 0 0 0
+/img/ilustraciones/blog.svg
+0 1 0 67461 0 0 0 0
+/servicios
+0 6 0 293133 0 1 0 0
+/global_assets/js/plugins/forms/styling/uniform.min.js
+0 25 0 263375 0 0 0 0
+/ar/css/responsive.css
+0 1 0 11305 0 0 0 0
+/img/core-img/asesoria.svg
+0 15 0 153195 0 0 0 0
+/_debugbar/assets/stylesheets
+0 2 0 426766 0 0 0 0
+/
+0 47 0 2202430 3 0 0 0
+/img/logos/08.jpg
+1 13 0 236535 0 0 0 0
+/img/servicios/cursos/negociar.jpg
+1 5 0 138020 0 0 0 0
+/img/ilustraciones/fondo-circulo.svg
+0 19 0 45885 0 0 0 0
+/ar/img/logos/lider.png
+1 1 0 11929 0 0 0 0
+/ar/img/logos/protectia.png
+1 1 0 13672 0 0 0 0
+/img/servicios/cursos/fortalezas.jpg
+1 5 0 138215 0 0 0 0
+/js/popper.min.js+bootstrap.min.js.pagespeed.jc.nDHW4eMSIU.js
+0 1 0 72545 0 0 0 0
+/img/logos/15.png
+1 13 0 174083 0 0 0 0
+/img/ilustraciones/bienvenido.svg
+0 13 0 1091025 0 0 0 0
+/img/bg-img/bg-ondas2.svg
+0 15 0 53275 0 0 0 0
+/global_assets/js/plugins/pickers/daterangepicker.js
+0 28 0 2039912 0 0 0 0
+/img/servicios/team/confianza.jpg
+1 5 0 172520 0 0 0 0
+/img/logos/01.jpg
+1 13 0 206492 0 0 0 0
+/img/core-img/cr.png
+1 34 0 106182 0 0 0 0
+/img/charlas/9-5.jpg
+1 11 0 7079831 0 0 0 0
+/ar/img/charlas/13-6.jpg
+1 1 0 674427 0 0 0 0
+/img/core-img/logo.svg
+0 19 0 343045 0 0 0 0
+/ar/img/core-img/sonrisa.png
+1 1 0 4147 0 0 0 0
+/ar/css/bootstrap.min.css
+0 1 0 129568 0 0 0 0
+/img/servicios/workshops/fluir.jpg
+1 5 0 66405 0 0 0 0
+/ar/img/logos/arcor.png
+1 1 0 12596 0 0 0 0
+/img/logos/tecnocampo.png
+1 13 0 77363 0 0 0 0
+/global_assets/js/plugins/loaders/blockui.min.js
+0 31 0 346239 0 0 0 0
+/ar/css/themify-icons.css
+0 1 0 18452 0 0 0 0
+/ar/fonts/fontawesome-webfont.woff2
+0 1 0 79250 0 0 0 0
+/img/ilustraciones/contacto.svg
+0 6 0 146982 0 0 0 0
+/img/logos/18.png
+1 13 0 153712 0 0 0 0
+/global_assets/js/demo_pages/dashboard.js
+0 28 0 3760232 0 0 0 0
+/img/servicios/asesoria/empresab.jpg
+1 5 0 141775 0 0 0 0
+/ar/css/ionicons.min.css
+0 1 0 53391 0 0 0 0
+/img/team-img/meli.png
+1 4 0 174248 0 0 0 0
+/ar/img/logos/iveco.png
+1 1 0 5546 0 0 0 0
+/global_assets/js/plugins/visualization/d3/d3.min.js
+0 29 0 4465955 0 0 0 0
+/global_assets/js/plugins/editors/summernote/summernote.min.js
+0 25 0 3020750 0 0 0 0
+/img/logos/09.png
+1 13 0 1606514 0 0 0 0
+/ar/img/ilustraciones/fondo-circulo.svg
+0 1 0 2415 0 0 0 0
+/cursos
+0 12 0 124622 0 0 0 0
+/img/team-img/lu.png
+1 4 0 176564 0 0 0 0
+/img/servicios/workshops/diversidad.jpg
+1 5 0 147070 0 0 0 0
+/ar/img/bg-img/bg-ondas.svg
+0 1 0 3272 0 0 0 0
+/js/jquery-2.2.4.min.js
+0 35 0 3070550 0 0 0 0
+/global_assets/js/plugins/forms/styling/switchery.min.js
+0 28 0 743036 0 0 0 0
+/img/core-img/arg-lg.png
+1 4 0 24692 0 0 0 0
+/img/logos/apex.png
+1 13 0 155922 0 0 0 0
+/css/responsive.css
+0 34 0 480711 0 0 0 0
+/global_assets/js/demo_pages/uploader_bootstrap.js
+0 25 0 337525 0 0 0 0
+/img/servicios/asesoria/porganizacionales.jpg
+1 5 0 79095 0 0 0 0
+/css/magnific-popup.css
+0 36 0 274973 0 0 0 0
+/img/servicios/cursos/atencion.jpg
+1 5 0 148315 0 0 0 0
+/img/logos/proa.png
+1 13 0 74360 0 0 0 0
+/ar/img/core-img/estrellas.svg
+0 1 0 4176 0 0 0 0
+/img/servicios/cursos/tiempo.jpg
+1 5 0 136920 0 0 0 0
+/img/logos/ibienestar.jpg
+1 4 0 81692 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+10.128.0.3
+0 3241 2750 133891510 4 1552341866 0 0
+/login
+# End Of Table - sites (monthly)
+# -sites- (daily)
+10.128.0.3
+0 582 477 18396544 1 1552341866 0 0
+/login
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 3241
+# End Of Table - referrers
+# -agents- 
+Webmin
+0 3241
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
